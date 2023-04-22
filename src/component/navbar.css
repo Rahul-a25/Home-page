@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left h2{
+    color: white;
+    margin-left: 30px;
+}
+.navbar .right ul{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+.navbar ul li{
+    color: white;
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+}

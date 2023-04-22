@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundImage:"url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured.jpg)",height:"700px"}} className="App">
+      <Navbar/>
+      <h1 style={{fontSize:"50px",color:"black"}}>Home</h1>
     </div>
   );
 }
